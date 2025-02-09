@@ -1,0 +1,6 @@
+requests
+discord-webhook
+pywin32
+pyinstaller
+pystyle
+pycryptodome

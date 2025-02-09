@@ -1,11 +1,11 @@
 -----
 
-### <p align="center">🤫 Whisper 🤫</p>
+### <p align="center">🤫 Whispered 🤫</p>
 
 <br><br>
 <p align="center">
 <strong>
-Whisper is a stealthy Python-based application designed to operate quietly in the background. This tool is engineered to capture and send discord authentication tokens from the main Client. Using advanced cryptographic techniques and network protocols, Whisper ensures that all data is securely transferred to a discord webhook without leaving a trace.
+Whispered is a stealthy Python-based application designed to operate quietly in the background. This tool is engineered to capture and send discord authentication tokens from the main Client. Using advanced cryptographic techniques and network protocols, Whisper ensures that all data is securely transferred to a discord webhook without leaving a trace.
 To use it you have to download all requierement with the install.bat file and then start the build.py file.
 </strong>
 </p>
@@ -16,7 +16,7 @@ To use it you have to download all requierement with the install.bat file and th
 ### <p align="center">👀 ScreenShots 👀</p>
 
 <br><br>
-<img src="https://raw.githubusercontent.com/NinjaPanic/Images/main/">
+<img src="https://raw.githubusercontent.com/NinjaPanic/Images/refs/heads/main/WhisperedScreenshot.png">
 <br>
 
 -----
@@ -27,9 +27,8 @@ To use it you have to download all requierement with the install.bat file and th
 <strong>
 * Easy and fast to use
 * Send to any Discord Webhook
-* No shell on start
+* Hidden shell
 * Convert to a .exe file
-* Can be obfuscate
 * Beautiful 🙃
 </strong>
 <br>
