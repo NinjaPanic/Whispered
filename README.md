@@ -16,7 +16,7 @@ To use it you have to download all requierement with the install.bat file and th
 ### <p align="center">👀 ScreenShots 👀</p>
 
 <br><br>
-<img src="https://raw.githubusercontent.com/NinjaPanic/Images/refs/heads/main/WhisperedScreenshot.png">
+<img src="https://raw.githubusercontent.com/NinjaPanic/Images/refs/heads/main/Whispered_Capture.png">
 <br>
 
 -----

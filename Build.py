@@ -19,6 +19,7 @@ Whispered = """
 System.Size(140, 40)
 System.Title("Whispered")
 System.Clear()
+Cursor.HideCursor()
 
 def Start():
     System.Clear()
