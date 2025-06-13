@@ -54,7 +54,7 @@ subprocess.run([
     "--collect-submodules=requests",
     "--collect-submodules=discord-webhook",
     "--collect-submodules=pywin32",
-    "--collect-submodules=ycryptodome",
+    "--collect-submodules=pycryptodome",
     "--distpath", output_folder,
     input_script
 ], shell=True)
@@ -70,8 +70,8 @@ System.Clear()
 print("\n"*2)
 print(Colorate.Vertical(Colors.red_to_purple, Center.XCenter(Whispered)))
 print("\n"*3)
-Write.Print("  [>] Whispered has been created by NinjaPanic on Github | https://github.com/NinjaPanic/Whispered", Colors.red_to_purple)
-Write.Print("\n  [>] Discord server : https://discord.gg/X9MxZ3JnXy", Colors.red_to_purple)
+Write.Print("  [>] Whispered has been created by NinjaPanic on Github | https://github.com/NinjaPanic/Whispered", Colors.red_to_purple, interval=0.0125)
+Write.Print("\n  [>] Discord server : https://discord.gg/X9MxZ3JnXy", Colors.red_to_purple, interval=0.0125)
 print("\n"*2)
 Write.Print("  [>] File has successfully been created in /EXE", Colors.red_to_purple, interval=0.0125)
 sleep(5)
